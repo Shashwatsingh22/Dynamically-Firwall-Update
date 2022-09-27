@@ -20,8 +20,8 @@ The company's headquarters does not have a **static IP** and **keeps on changing
 		  - First **Deny the traffic** from the **last IP** (**Getting last IP  by the Help of Variable File**) on **respected Port number's**.
 		  - Then **allow the traffic** for **new IP** on respected Port number's.
 - **Python Script** can be **triggered by two ways** :-
-				- By **Scheduled CronJob** **(Dynamically)**
-				- By **Jenkins** **(Manually)**
+				- By [**Scheduled CronJob** **(Dynamically)**](https://github.com/Shashwatsingh22/Dynamically-Firwall-Update/tree/python-script)
+				- By [**Jenkins** **(Manually)**](https://github.com/Shashwatsingh22/Dynamically-Firwall-Update/tree/trigger)
 				
 **Complete Architecture Structure**
 ![ArchIMP1.1](https://raw.githubusercontent.com/Shashwatsingh22/Dynamically-Firwall-Update/main/archIMG/1.1.PNG)
