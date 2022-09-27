@@ -1,0 +1,26 @@
+{
+  "name": "getnewip",
+  "version": "1.0.0",
+  "description": "API GetNewIP ",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "API",
+    "GetNewIP"
+  ],
+  "author": "Shashwat Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  }
+}
