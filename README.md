@@ -5,7 +5,6 @@
 3.  [Ansible Role](https://github.com/Shashwatsingh22/Dynamically-Firwall-Update/tree/ansible-role)
 4.  [Jenkinsfile](https://github.com/Shashwatsingh22/Dynamically-Firwall-Update/tree/trigger)
 
-## Demo
 ## Demo🎬
 [![Demo](https://img.youtube.com/vi/bu2nBt45H6A/0.jpg)](https://www.youtube.com/watch?v=bu2nBt45H6A)
 
