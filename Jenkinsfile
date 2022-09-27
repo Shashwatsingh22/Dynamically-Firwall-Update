@@ -13,7 +13,7 @@ pipeline {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE'){
                  script{
-                         shell("bash /var/lib/jenkins/workspace/updateFirewall/script.sh")
+                         sh("bash /var/lib/jenkins/workspace/updateFirewall/script.sh")
                  }
                 }
             }
@@ -25,7 +25,7 @@ pipeline {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE'){
                  
                 script{
-                    shell('cat /home/ubunutu/pythonScriptForAutomation/jenkins.log')
+                    sh('cat /home/ubunutu/pythonScriptForAutomation/jenkins.log')
                 }
 
             }
