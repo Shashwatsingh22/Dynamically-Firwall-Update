@@ -15,7 +15,8 @@ It will make the request to API and get IP then trigger the Ansible-Playbook if 
 
     python3 main.py
 
-**Cron Configuration**
+**Cron Configuration** 
+
 ![cron1.1](https://raw.githubusercontent.com/Shashwatsingh22/Dynamically-Firwall-Update/python-script/ConfigIMG/cron1.PNG)
 ![cron1.2](https://raw.githubusercontent.com/Shashwatsingh22/Dynamically-Firwall-Update/python-script/ConfigIMG/cron2.PNG)
 
