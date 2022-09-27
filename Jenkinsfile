@@ -25,7 +25,7 @@ pipeline {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE'){
                  
                 script{
-                    sh('cat /home/ubuntu/pythonScriptForAutomation/jenkins.log')
+                    sh('whoami;cat /home/ubuntu/pythonScriptForAutomation/jenkins.log')
                 }
 
             }
