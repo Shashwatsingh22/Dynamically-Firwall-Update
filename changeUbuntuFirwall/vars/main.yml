@@ -1,9 +1,6 @@
-ipToAllow: 3.88.28.206
-ipToDeny: 3.88.28.20
+ipToAllow: 54.80.108.223
+ipToDeny: 3.88.28.206
 ports:
 - 22
 - 80
 - 443
-port1: 22
-port2: 80
-port3: 443

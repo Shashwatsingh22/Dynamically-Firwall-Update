@@ -1,30 +1,33 @@
 ---
 # tasks file for changeUbuntuFirwall
+
 - name: "Deny the IP's"
   ufw:
     rule: deny
     proto: tcp
-    port: "{{ port1 }}"
+    port: "{{ item }}"
     src: "{{ ipToDeny }}"
     comment: Changes made by ansible
+  loop: "{{ ports }}"
 
 - name: "Display the Status"
-  shell: sudo ufw show added
-  register : output
+  shell: sudo ufw status numbered
+  register : outputDeny
 
-- debug: var=output.stdout_lines
+- debug: var=outputDeny.stdout_lines
 
 - name : "Allow the IP's"
   ufw:
     rule: allow
     proto: tcp
-    port: "{{ port1 }}"
+    port: "{{ item }}"
     src: "{{ ipToAllow }}"
     comment: Changes done by Ansible
+  loop: "{{ ports }}"
 
 - name: "Display the Status"
   shell : 'sudo ufw show added'
-  register : output
+  register : outputAllow
 
-- debug: var=output.stdout_lines
+- debug: var=outputAllow.stdout_lines
 
