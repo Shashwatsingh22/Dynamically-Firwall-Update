@@ -1,0 +1,19 @@
+[Unit]
+Description=created  the api system file
+Documentation=https://github.com/Shashwatsingh22/Dynamically-Firwall-Update/tree/api
+After=network.target
+
+[Service]
+User=ubuntu
+Group=www-data
+Restart=always
+RestartSec=10
+StandardOutput=append:/home/ubuntu/getIP-api/succ.log
+StandardError=append:/home/ubuntu/getIP-api/err.log
+SyslogIdentifier=getIP-api
+EnvironmentFile=/home/ubuntu/getIP-api/.env
+WorkingDirectory=/home/ubuntu/getIP-api
+ExecStart=/usr/bin/node /home/ubuntu/getIP-api/app.js
+
+[Install]
+WantedBy=multi-user.target
