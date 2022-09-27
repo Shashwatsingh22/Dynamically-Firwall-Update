@@ -24,7 +24,9 @@ The company's headquarters does not have a **static IP** and **keeps on changing
 				- By [**Jenkins** **(Manually)**](https://github.com/Shashwatsingh22/Dynamically-Firwall-Update/tree/trigger)
 				
 **Complete Architecture Structure**
+
 ![ArchIMP1.1](https://raw.githubusercontent.com/Shashwatsingh22/Dynamically-Firwall-Update/main/archIMG/1.1.PNG)
 
 **Working**
+
 ![ArchIMG1.2](https://raw.githubusercontent.com/Shashwatsingh22/Dynamically-Firwall-Update/main/archIMG/1.2.PNG)
