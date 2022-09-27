@@ -41,10 +41,16 @@ def main():
         #First we will update the variable file if there is any update in file
         #Here We Execute the Ansible Playbook
         if(isNewIP(newIP)):
-            os.system('ansible-playbook /home/ubuntu/setup.yml')
+           print("Look like Server-X IP changes,\n Lets Start the Ansible to Configure Firwall.....")
+           os.system('ansible-playbook /home/ubuntu/setup.yml')
         
-            print("Task Completed")        
+           print("Task Completed")        
         
+        else:
+            print("Still the IP of Server-X are Same.")
+    
+    else:
+        print("Error Caused to False Response from the API.")
 
 if __name__ == "__main__":
     main()
