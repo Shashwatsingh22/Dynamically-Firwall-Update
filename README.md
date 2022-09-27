@@ -1,4 +1,9 @@
 # Dynamically Firewall Update
+## Modules 
+1.  [API](https://github.com/Shashwatsingh22/Dynamically-Firwall-Update/tree/api)
+2.  [Python Script](https://github.com/Shashwatsingh22/Dynamically-Firwall-Update/tree/python-script)
+3.  [Ansible Role](https://github.com/Shashwatsingh22/Dynamically-Firwall-Update/tree/ansible-role)
+4.  [Jenkinsfile](https://github.com/Shashwatsingh22/Dynamically-Firwall-Update/tree/trigger)
 
 ## *Problem Statement*
 
