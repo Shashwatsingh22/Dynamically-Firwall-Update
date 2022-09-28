@@ -28,8 +28,8 @@ The company's headquarters does not have a **static IP** and **keeps on changing
 		  - First **Deny the traffic** from the **last IP** (**Getting last IP  by the Help of Variable File**) on **respected Port number's**.
 		  - Then **allow the traffic** for **new IP** on respected Port number's.
 - **Python Script** can be **triggered by two ways** :-
-				- By [**Scheduled CronJob** **(Dynamically)**](https://github.com/Shashwatsingh22/Dynamically-Firwall-Update/tree/python-script)
-				- By [**Jenkins** **(Manually)**](https://github.com/Shashwatsingh22/Dynamically-Firwall-Update/tree/trigger)
+				- By [**Scheduled CronJob** **(Dynamically)**] Or I can also able to setup in the Jenkins (i.e [Build Trigger](https://github.com/Shashwatsingh22/Dynamically-Firwall-Update/tree/python-script#readme) according to the configured time)(https://github.com/Shashwatsingh22/Dynamically-Firwall-Update/tree/python-script)
+				- By Run Job[**Jenkins** **(Manually)**](https://github.com/Shashwatsingh22/Dynamically-Firwall-Update/tree/trigger)
 				
 **Complete Architecture Structure**
 
