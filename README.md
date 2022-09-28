@@ -22,3 +22,5 @@ It will make the request to API and get IP then trigger the Ansible-Playbook if 
 
 **Jenkins Configuration**
 For Configuration [Read My Blog](https://towardsaws.com/installation-of-jenkins-on-rhel8-8f7bd5c87d40) (Either on Ubuntu or CentOS)
+
+![jenkins1.3](https://raw.githubusercontent.com/Shashwatsingh22/Dynamically-Firwall-Update/python-script/ConfigIMG/jenkins3.PNG)
